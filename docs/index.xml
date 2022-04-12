@@ -6,7 +6,18 @@
     <description>Recent content in Launch X Bitácora de viaje on Bitácora de Viaje de Axel Reyes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://github.com/axlgoze/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://github.com/axlgoze/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Js notes</title>
+      <link>https://github.com/axlgoze/posts/post_2/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/axlgoze/posts/post_2/</guid>
+      <description>Sentencia Return Con esta sentencia podemos devolver datos de una función, supongamos que tenemos la siguiente Función:
+function calcularImc(peso,altura){ imc = peso/(altura*altura); document.write(imc); } Bueno podemos ahorrarnos ese &amp;ldquo;document.write&amp;rdquo; y RETORNAR solo el resultado de nuestra operación.
+function calcularImc(peso,altura){ return (peso/(altura*altura)); } </description>
+    </item>
+    
     <item>
       <title>Mi ruta de aprendizaje</title>
       <link>https://github.com/axlgoze/posts/post_1/</link>
