@@ -23,3 +23,25 @@ function calcularImc(peso,altura){
         return (peso/(altura*altura));
     }
 ~~~
+
+## :sunrise: Arrays
+
+Los arreglos en JavaScript son un **tipo de datos** para almacenar __secuencias__ de números y está escrito como una lista de valores entre corchetes, separados por comas.
+
+```javascript
+let listaDeNumeros = [3,21,33,44,11];
+console.log(listaDeNumeros[3]);
+// -> 44
+```
+- Para poder obtener un __elemento__ del arreglo se usan corchetes.
+- El primer indice de un arreglo siempre sera 0.
+
+## :sunrise_over_mountains: Propiedades
+
+En JavaScript podemos acceder a las propiedades de valores y objetos, es decir, 
+
+
+
+
+
+
