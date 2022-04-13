@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://github.com/axlgoze/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title></title>
+      <link>https://github.com/axlgoze/posts/post_3/</link>
+      <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/axlgoze/posts/post_3/</guid>
+      <description>¿Que demonios es UNIX? Empecemos por el principio
+Unix fue creado en 1960 con el proyecto MULTICS (Multiplexed Information and Computing Service) inciado por las empresas AT&amp;amp;T con GE.
+En 1969 K. Thompson continua con el proyecto quien tras crear un juego llamado &amp;ldquo;Space travel&amp;rdquo; (que curioso es ver como el mundo de la programación y el espacio exterior constantemente se llaman), el juego no fue exitoso y para lograr que se ejecutara más rápido Thompson reescribio el juego en lenguaje ensamblador y ahi surgio la idea de crear un nuevo sistema operativo.</description>
+    </item>
+    
+    <item>
       <title>Js notes</title>
       <link>https://github.com/axlgoze/posts/post_2/</link>
       <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
