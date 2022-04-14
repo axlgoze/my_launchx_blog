@@ -9,15 +9,25 @@ description: "Aprendiendo Git como se debe"
 <details open>
 <summary> 💊 índice <summary>
   1. Inicio- Sobre el control de Versiones
+  
   2. Fundamentos de Git
+  
   3. Ramificaciones en Git
+  
   4. Git en el servidor
+  
   5. Git en entornos distribuidos
+  
   6. GitHub
+  
   7. Herramientas de Git
+  
   8. Personalización de Git
+  
   9. Git y oitros Sistemas
+  
   10. Los entresijos internos de Git
+  
 </details>
   
 <details>
@@ -36,6 +46,8 @@ description: "Aprendiendo Git como se debe"
   ### Sistema de control de verisones locales
   
   Un VCS surge para eliminar los errores que surgian al guardar copias y copias de un proyecto o de cualquier tipo de archivo. Como primer solución surgen los VCS locales que consistian en una base de datos para registrar todo cambio.
+  
+  ![Figura 1](https://drive.google.com/file/d/18YgKElZWgIkwK6aawO8Go_G9IPnpmyQJ/view?usp=sharing)
   
   ### Sistemas de Control de Versiones Centralizados
   
