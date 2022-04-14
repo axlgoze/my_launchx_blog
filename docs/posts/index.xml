@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://github.com/axlgoze/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pro Git Book</title>
+      <link>https://github.com/axlgoze/posts/post_4/</link>
+      <pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/axlgoze/posts/post_4/</guid>
+      <description>🕹 Curso de GIT Acerca del control de Versiones (VCS) ¿Qué es un control de versiones? Es un sistema que registra todo cambio en un archivo o conjunto de archivos a lo largo del tiempo siendo capaz de recuperarlos más adelante.
+el Version control system te permite regresar a versiones anteriores de tus archivos, comparar cambios, ver quien modifico el archivo, quien introdujo un problema y cuando, etc.
+También nos ayuda a recuperar archivos por si estos se pierden o se dañan.</description>
+    </item>
+    
+    <item>
       <title>Unix travel</title>
       <link>https://github.com/axlgoze/posts/post_3/</link>
       <pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate>
