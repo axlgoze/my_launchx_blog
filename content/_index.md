@@ -12,6 +12,4 @@ Mis expectativas de este proyecto son:
 - Aprender Git & Github. 🤪
 - Compartir mis conocimientos con otros Explorers y todx aquel que lo necesite. 🥶
 - Tener los fundamentos para ser todo un profesional. 🥵
-- 
-
-🚀
+- Al terminar este viaje tecleare más rápido y con minimos errores 🚀
