@@ -44,7 +44,7 @@ En 1969 K. Thompson continua con el proyecto quien tras crear un juego llamado &
       <guid>https://github.com/axlgoze/posts/post_2/</guid>
       <description>Sentencia Return Con esta sentencia podemos devolver datos de una función, supongamos que tenemos la siguiente Función:
 function calcularImc(peso,altura){ imc = peso/(altura*altura); document.write(imc); } Bueno podemos ahorrarnos ese &amp;ldquo;document.write&amp;rdquo; y RETORNAR solo el resultado de nuestra operación.
-function calcularImc(peso,altura){ return (peso/(altura*altura)); } :sunrise: Arrays Los arreglos en JavaScript son un tipo de datos para almacenar secuencias de números y está escrito como una lista de valores entre corchetes, separados por comas.</description>
+function calcularImc(peso,altura){ return (peso/(altura*altura)); } 🌎 Arrays Los arreglos en JavaScript son un tipo de datos para almacenar secuencias de números y está escrito como una lista de valores entre corchetes, separados por comas.</description>
     </item>
     
     <item>
