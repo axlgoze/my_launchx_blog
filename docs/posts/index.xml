@@ -8,6 +8,19 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://github.com/axlgoze/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Comandos GIT</title>
+      <link>https://github.com/axlgoze/posts/post_5/</link>
+      <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/axlgoze/posts/post_5/</guid>
+      <description>comandos básicos git init Para crear tanto el repositorio ./.git donde se guardaran los cambios históricos del proyecto Y parar crear el area de preparación (Staging area).
+git add Para mover o pasar los archivos al area de preparación (Stanging area)
+git commit Para mover o pasar los archivos al repositorio local (.git Directory)
+git remote add origin Para crear un enlace remoto con un repositorio
+git remote -v Para ver el repositorio remoto enlazado</description>
+    </item>
+    
+    <item>
       <title>Pro Git Book</title>
       <link>https://github.com/axlgoze/posts/post_4/</link>
       <pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate>
