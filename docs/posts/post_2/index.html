@@ -105,6 +105,29 @@ y en este caso accedemos a la propiedad <em>max</em> del objeto <em>Math</em></p
 <p>Para evitar cargar el mismo módulo varias veces, <em>require</em> mantiene un (caché) almacenado de módulosñ que ya han sido cargados</p>
 </blockquote>
 <p>Cuando se llama, primero verifica si el módulo solicitado  ya ha sido cargado y, si no, lo carga. Esto implica leer el código del módulo, envolverlo en una función y llamarlo.</p>
+<h2 id="-modificando-clases">🌗 Modificando Clases</h2>
+<h3 id="ejemplo-prático">Ejemplo prático</h3>
+<p>Es posible modificar una clase con otro script de la siguiente manera:</p>
+<ol>
+<li>Creamos una clase que al ser llamada por otro módulo instancie un objeto, ademas de un método para imprimir en consola un mensaje pasado como parametro:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">class</span> <span class="nx">Logger</span> <span class="p">{</span>
+  <span class="nx">constructor</span> <span class="p">(</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">count</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">name</span>
+  <span class="p">}</span>
+
+  <span class="nx">log</span> <span class="p">(</span><span class="nx">message</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">count</span><span class="o">++</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;[&#39;</span> <span class="o">+</span> <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">+</span> <span class="s1">&#39;] &#39;</span> <span class="o">+</span> <span class="nx">message</span><span class="p">)</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Logger</span><span class="p">(</span><span class="s1">&#39;DEFAULT&#39;</span><span class="p">)</span> <span class="c1">// Nuevo objeto instanciado
+</span><span class="c1"></span><span class="nx">module</span><span class="p">.</span><span class="nx">exports</span><span class="p">.</span><span class="nx">Logger</span> <span class="o">=</span> <span class="nx">Logger</span> <span class="c1">// Clase
+</span></code></pre></div><ol start="2">
+<li></li>
+</ol>
 
     </div>
   </div>
