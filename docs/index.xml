@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 15 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://github.com/axlgoze/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Comandos de GNU/LINUX</title>
+      <link>https://github.com/axlgoze/posts/post_6/</link>
+      <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/axlgoze/posts/post_6/</guid>
+      <description>Basic linux commands nano Con este comando puedes editar un archivo ya creado en tu carpeta de trabajo.
+Ademas, es posible crear archivos y abrirlos inmediatamente con este comando por ejemplo
+nano nuevoArchivo.extension </description>
+    </item>
+    
+    <item>
       <title>Comandos GIT</title>
       <link>https://github.com/axlgoze/posts/post_5/</link>
       <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
