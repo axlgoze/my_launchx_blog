@@ -72,6 +72,33 @@ Este enfoque es el más utilizado y el concepto principal es una *Función* llam
 Cuando se llama, primero verifica si el módulo solicitado  ya ha sido cargado y, si no, lo carga. Esto implica leer el código del módulo, envolverlo en una función y llamarlo.
 
 
+## 🌗 Modificando Clases
+
+### Ejemplo prático
+
+Es posible modificar una clase con otro script de la siguiente manera: 
+
+1. Creamos una clase que al ser llamada por otro módulo instancie un objeto, ademas de un método para imprimir en consola un mensaje pasado como parametro:
+
+```javascript
+class Logger {
+  constructor (name) {
+    this.count = 0
+    this.name = name
+  }
+
+  log (message) {
+    this.count++
+    console.log('[' + this.name + '] ' + message)
+  }
+}
+
+module.exports = new Logger('DEFAULT') // Nuevo objeto instanciado
+module.exports.Logger = Logger // Clase
+```
+
+2. 
+
 
 
 
