@@ -63,6 +63,18 @@ Cuando se trabaja con diferentes archivos estos comparten el mismo espacio de no
 
 Una recomendación: si aún te encuentrass explorando el problema no es necesario perder el tiempo preocupandote por los módulos sino que una vez qeu tengas algo más sólido, es buen momento para dar un paso atrás y organizarlo.
 
+### interfaces
+
+Es la parte del módulo que es visible desde otros módulos.
+
+### dependencias
+
+Son los otros módulos que este utiliza.
+
+### NPM
+
+es un repositorio de paquetes de JAvaScript.
+
 ## 📣 Módulos CommonJS
 
 Este enfoque es el más utilizado y el concepto principal es una *Función* llamada *require* ("*requerir*"). Cuando la llmas con el nombre del módulo de una dependencia, esta se asegura de que elk módulo sea cargado y retorna su interfaz.
@@ -97,9 +109,41 @@ module.exports = new Logger('DEFAULT') // Nuevo objeto instanciado
 module.exports.Logger = Logger // Clase
 ```
 
-2. 
+2. Creamos una función extra que modificara al objeto instanciado
 
+```javascript
+        /* require('./logger') nos dara el objeto y require('./logger').Logger nos dara la clase */
+        
+ require('./logger').customMessage = function () {
+         console.log('This is a new functionality')
+}
 
+```
+
+3. En tu archivo main.js deberas llamar primero al modulo que crea una nueva funcionalidad para despues llamar al modulo que instancia el objeto.
+
+```javascript
+ 
+ require('./patcher')
+ const Logger = require('./logger')
+ logger.customMessage()
+        
+```
+## ⚾ Módulos ECMAScript
+
+Este sistema de módulos fue introducido en 2015 y es llamado *Módulos ES*. Su diferencia con otro tipo de módulos es que en lugar de llama a una función para acceder a una dependencia, utilizas la palabra clave **import**.
+
+La interfazz de un módulo ES no es un valor único, sino un conjunto de vinculaciones con nombres. Cuando importas desde otro módulo, importas la *vinculación*, no el valor, lo que significa que un módulo exportado puede cambiar el valor de la vinculación en cualquier momento, y que los módulos que la importen varán su nuevo valor.
+
+Cuando hay una vinculación llamada default. esta se trata como el principal valor del módulo exportado.
+
+Es posible renombrar la vinculación importada usando la palabra as ("como").
+
+```javascript
+
+ import {days as nombreDias} from "date-names";
+ consolo.log(nombreDias.length)
+```
 
 
 
