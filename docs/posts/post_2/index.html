@@ -59,7 +59,38 @@
       
     </div>
     <div class="content">
-      <h1 id="sentencia-return">Sentencia Return</h1>
+      <h1 id="elementos-básicos-de-js">ELEMENTOS BÁSICOS DE JS</h1>
+<ul>
+<li>Bindings (let y const)</li>
+</ul>
+<p>Dentro del mundo de la computadora, solo existen datos. Los datos son fundamentalmente parecidos pues se almacenan como grandes secuencias de bits.</p>
+<p>Los bits pueden tener dos valores (cero y uno) y dentro de las computadoras los bits toman formas de cargas eléctricas altas o bajas, señales fuerters o débiles, etc. Cualquier pedazo de infromación discreta puede ser reducida a una secuencia de unos y ceros y, de esa manera ser representada en bits.</p>
+<h2 id="valores">valores</h2>
+<p>Las porciones de bits pueden ser clasificadas y en JavaScript esas porciones son conocidas como valores. Aunque todos los valores estan hechos de bits, estos juegan papeles diferentes. Cada valor tiene un rol. Algunos son números, otros pedazos de texto, otros son funciones, etc.</p>
+<h3 id="números">números</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">9
+</code></pre></div><p>valores tipo <em>number</em> son numéricos. JavaScript usa 64 bits para almacenar valores numéricos y solo existe una cantidad finita de patrones que podemos crear con 64 bits 2 ^ 64 = 18 trillones aproximadamente. sin embargo, los bits tambien indican números negativos por lo que el número entero (También llamados <em>integers</em>) más grande que puede ser almacenado esta en el rango de los nueve mil billones (inmenso!).</p>
+<h4 id="fraccionarios">fraccionarios</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">9.33
+</code></pre></div><p>para números muy grandes o muy pequeños podemos usar la notación cientifica agregando <em>e</em>, seguida por el exponente del número</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">9.33e8
+</code></pre></div><p>Esto seria: 9.33 x 10 ^ 8 = 933000000</p>
+<h3 id="strings">Strings</h3>
+<p>Son usados para representar texto. Son escritos encerrando su contenido entre comillas *<em>simples, dobles o invertidas</em>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">&#34;Debajo del mar&#34;
+&#39;Descansa el oceano&#39;
+`Flota el oceano`
+</code></pre></div><p>Cuando hay un simbolo que precede a una diagonal invertida significa que el caracter que le sigue tiene un significado especial. Esto se conoce como <em>Escapar</em> del caracter. Por ejemplo:
+&ldquo;\n&rdquo; significa un salto de linea (Newline)
+&ldquo;\t&rdquo; es un caracter de tabulación
+Si resulta que queremos escribir una linea invertida dentro de un String es posible agregando una doble linea invertida, esto ocasionara un colapso de ellas y podras imprimir una linea invertida como caracter:</p>
+<blockquote>
+<p>Un carácter de salto de linea es escrito así: &ldquo;\n&rdquo;</p>
+</blockquote>
+<ul>
+<li>Imprimir valores (console.log)</li>
+</ul>
+<h1 id="sentencia-return">Sentencia Return</h1>
 <p>Con esta sentencia podemos devolver datos de una función, supongamos que tenemos la siguiente Función:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">function calcularImc(peso,altura){
         imc = peso/(altura*altura);
@@ -156,7 +187,10 @@ y en este caso accedemos a la propiedad <em>max</em> del objeto <em>Math</em></p
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript">
  <span class="kr">import</span> <span class="p">{</span><span class="nx">days</span> <span class="nx">as</span> <span class="nx">nombreDias</span><span class="p">}</span> <span class="nx">from</span> <span class="s2">&#34;date-names&#34;</span><span class="p">;</span>
  <span class="nx">consolo</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">nombreDias</span><span class="p">.</span><span class="nx">length</span><span class="p">)</span>
-</code></pre></div>
+</code></pre></div><h1 id="references">References</h1>
+<p><a href="https://eloquentjavascript.net/">Eloquent JavaScript</a>
+<a href="http://ares.inf.um.es/00Rteam/documentos/usandoMarkdown.pdf">Markdown</a></p>
+
     </div>
   </div>
 

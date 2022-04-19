@@ -66,9 +66,8 @@ En 1969 K. Thompson continua con el proyecto quien tras crear un juego llamado &
       <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://github.com/axlgoze/posts/post_2/</guid>
-      <description>Sentencia Return Con esta sentencia podemos devolver datos de una función, supongamos que tenemos la siguiente Función:
-function calcularImc(peso,altura){ imc = peso/(altura*altura); document.write(imc); } Bueno podemos ahorrarnos ese &amp;ldquo;document.write&amp;rdquo; y RETORNAR solo el resultado de nuestra operación.
-function calcularImc(peso,altura){ return (peso/(altura*altura)); } 🌎 Arrays Los arreglos en JavaScript son un tipo de datos para almacenar secuencias de números y está escrito como una lista de valores entre corchetes, separados por comas.</description>
+      <description>ELEMENTOS BÁSICOS DE JS  Bindings (let y const)  Dentro del mundo de la computadora, solo existen datos. Los datos son fundamentalmente parecidos pues se almacenan como grandes secuencias de bits.
+Los bits pueden tener dos valores (cero y uno) y dentro de las computadoras los bits toman formas de cargas eléctricas altas o bajas, señales fuerters o débiles, etc. Cualquier pedazo de infromación discreta puede ser reducida a una secuencia de unos y ceros y, de esa manera ser representada en bits.</description>
     </item>
     
     <item>
