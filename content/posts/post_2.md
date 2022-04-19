@@ -4,6 +4,64 @@ date: 2022-04-12
 description: 'Aprendizaje de JavaScript'
 ---
 
+# ELEMENTOS BÁSICOS DE JS
+
+- Bindings (let y const)
+
+Dentro del mundo de la computadora, solo existen datos. Los datos son fundamentalmente parecidos pues se almacenan como grandes secuencias de bits.
+
+Los bits pueden tener dos valores (cero y uno) y dentro de las computadoras los bits toman formas de cargas eléctricas altas o bajas, señales fuerters o débiles, etc. Cualquier pedazo de infromación discreta puede ser reducida a una secuencia de unos y ceros y, de esa manera ser representada en bits.
+
+## valores
+
+Las porciones de bits pueden ser clasificadas y en JavaScript esas porciones son conocidas como valores. Aunque todos los valores estan hechos de bits, estos juegan papeles diferentes. Cada valor tiene un rol. Algunos son números, otros pedazos de texto, otros son funciones, etc.
+
+### números
+
+```
+9
+```
+
+valores tipo *number* son numéricos. JavaScript usa 64 bits para almacenar valores numéricos y solo existe una cantidad finita de patrones que podemos crear con 64 bits 2 ^ 64 = 18 trillones aproximadamente. sin embargo, los bits tambien indican números negativos por lo que el número entero (También llamados *integers*) más grande que puede ser almacenado esta en el rango de los nueve mil billones (inmenso!).
+
+#### fraccionarios
+
+```
+9.33
+```
+
+para números muy grandes o muy pequeños podemos usar la notación cientifica agregando *e*, seguida por el exponente del número
+
+
+```
+9.33e8
+```
+
+Esto seria: 9.33 x 10 ^ 8 = 933000000
+
+### Strings
+
+Son usados para representar texto. Son escritos encerrando su contenido entre comillas **simples, dobles o invertidas*:
+
+```
+"Debajo del mar"
+'Descansa el oceano'
+`Flota el oceano`
+```
+Cuando hay un simbolo que precede a una diagonal invertida significa que el caracter que le sigue tiene un significado especial. Esto se conoce como *Escapar* del caracter. Por ejemplo:
+"\n" significa un salto de linea (Newline)
+"\t" es un caracter de tabulación
+Si resulta que queremos escribir una linea invertida dentro de un String es posible agregando una doble linea invertida, esto ocasionara un colapso de ellas y podras imprimir una linea invertida como caracter:
+
+
+> Un carácter de salto de linea es escrito así: "\\n"
+
+
+
+
+
+
+- Imprimir valores (console.log)
 
 # Sentencia Return
 
@@ -144,6 +202,9 @@ Es posible renombrar la vinculación importada usando la palabra as ("como").
  import {days as nombreDias} from "date-names";
  consolo.log(nombreDias.length)
 ```
+# References
 
+[Eloquent JavaScript](https://eloquentjavascript.net/)
+[Markdown](http://ares.inf.um.es/00Rteam/documentos/usandoMarkdown.pdf)
 
 
