@@ -77,7 +77,8 @@ function calcularImc(peso,altura){ return (peso/(altura*altura)); } 🌎 Arrays 
       <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://github.com/axlgoze/posts/post_1/</guid>
-      <description>El día de hoy os contare como me la he pasado desde que me sumergí en este viaje de aprendizaje! Todo comenzó pretty fast y supé desde el primer momento en que ví la invitación que debia entrar, creí que era un especie de señal divina ya que llevo meses tratando de pulir mis habilidades técnicas y el saber que esta versón seria de desarrollo web fue lo mejor que me paso esa semana.</description>
+      <description>El día de hoy les contare como me la he pasado desde que me sumergí en este viaje de aprendizaje! 😎🧐🤠
+Todo comenzó pretty fast y supé desde el primer momento en que ví la invitación para unirse a esta especie de bootcamp que debia entrar, creí que era una de señal divina ya que llevo meses tratando de pulir mis habilidades técnicas y el saber que esta versión seria de desarrollo web fue lo mejor que me paso esa semana.</description>
     </item>
     
     <item>
