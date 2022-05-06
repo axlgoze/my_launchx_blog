@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://github.com/axlgoze/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Aprendiendo sobre la marcha</title>
+      <link>https://github.com/axlgoze/posts/post_7/</link>
+      <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/axlgoze/posts/post_7/</guid>
+      <description>Este post fue echo para plasmar conceptos y toda información necesaria para ir entendiendo las prácticas de la semana 4 de Microsofot Launch X BackEnd mission NODE.
+NODE JS Módulo fs Este módulo te permite usar funcionalidades para acceder e interacctuar con el archivo del sistema. Permitiendo tener acceso a métodos como:
+ readFile() Permite leer el contenido de un archivo Para usar una API se coloca Sync de esta manera: readFileSync()</description>
+    </item>
+    
+    <item>
       <title>Comandos de GNU/LINUX</title>
       <link>https://github.com/axlgoze/posts/post_6/</link>
       <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
